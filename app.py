@@ -45,11 +45,11 @@ def makeWebhookResult(req):
     print(speech)
 
     return {
-        speech: "speech",
-        displayText:"speech",
-        data: {},
-        contextOut:[],
-        source: "agent"
+        "speech": "speech",
+        "displayText": "speech",
+        "data": {},
+        "contextOut": [],
+        "source": "agent"
     }
 
 
