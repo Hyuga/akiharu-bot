@@ -39,7 +39,7 @@ def makeWebhookResult(req):
 
     price = {'capricciosa':1000, 'four cheese':1500, 'frutti di mare':2000, 'margherita':2500}
 
-    #speech = type + "A" + size + "ƒTƒCƒYA" + sauce + "ƒ\[ƒXA" + crust + "‚Å‚²’•¶³‚è‚Ü‚µ‚½B—¿‹à‚Í" + price + "‰~‚Å‚·B30•ª­X‚Å‚¨“Í‚¯‚Éã‚ª‚è‚Ü‚·I"
+    #speech = type + "ã€" + size + "ã‚µã‚¤ã‚ºã€" + sauce + "ã‚½ãƒ¼ã‚¹ã€" + crust + "ã§ã”æ³¨æ–‡æ‰¿ã‚Šã¾ã—ãŸã€‚æ–™é‡‘ã¯" + price + "å††ã§ã™ã€‚30åˆ†å°‘ã€…ã§ãŠå±Šã‘ã«ä¸ŠãŒã‚Šã¾ã™ï¼"
     speech = type + price
     print("Response:")
     print(speech)
