@@ -37,10 +37,9 @@ def makeWebhookResult(req):
     sauce = parameters.get("sauce")
     crust = parameters.get("crust")
 
-    price = {'capricciosa':1000, 'four cheese':1500, 'frutti di mare':2000, 'margherita':2500}
+    price = {'モントレー':1000, 'ペパロニサラミ':1500, 'テリヤキチキン':2000, 'ナスミート':2500}
 
-    #speech = type + "、" + size + "サイズ、" + sauce + "ソース、" + crust + "でご注文承りました。料金は" + price + "円です。30分少々でお届けに上がります！"
-    speech = type + price
+    speech = type + "、" + size + "サイズ、" + sauce + "ソース、" + crust + "でご注文承りました。料金は" + price + "円です。30分少々でお届けに上がります！"
     print("Response:")
     print(speech)
 
